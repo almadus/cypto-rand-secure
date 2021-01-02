@@ -7,18 +7,18 @@ composer require almadus/crypto-rand-secure
 
 Create the php file example index.php and paste this code
 
-<?php 
+<?php <br>
 
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php'; <br>
 
-$config = [
-	"uppercase" => true,
-	"lowercase" => true,
-	"numeric" => true,
-	"length" => 10
-];
+$config = [ <br>
+	"uppercase" => true, <br>
+	"lowercase" => true, <br>
+	"numeric" => true, <br>
+	"length" => 10 <br>
+]; <br>
 
-$crypto = new Almadus\CryptoRandSecure($config);
+$crypto = new Almadus\CryptoRandSecure($config); <br>
 
-var_dump($crypto->getToken());
+var_dump($crypto->getToken()); <br>
