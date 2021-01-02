@@ -1,0 +1,18 @@
+{
+    "name": "almadus/crypto-rand-secure",
+    "description": "The Crypto rand sercure string",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "abdoulazi",
+            "email": "azizmodibo@gmail.com"
+        }
+    ],
+    "autoload": {
+            "psr-4": {
+                "Almadus\\": "src/"
+            }
+    },
+    "require": {}
+}
