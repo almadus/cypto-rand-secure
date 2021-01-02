@@ -1,13 +1,13 @@
 # PHP library for cypto-rand-secure
-## usage
+## Install With Composer
 
 composer require almadus/crypto-rand-secure
 
-#Example
+## Code Sample
 
 Create the php file example index.php and paste this code
 
-<?php <br>
+`<?php <br>
 
 
 require __DIR__.'/../vendor/autoload.php'; <br>
@@ -17,8 +17,8 @@ $config = [ <br>
 	"lowercase" => true, <br>
 	"numeric" => true, <br>
 	"length" => 10 <br>
-]; <br>
+]; <br><br>
 
 $crypto = new Almadus\CryptoRandSecure($config); <br>
 
-var_dump($crypto->getToken()); <br>
+var_dump($crypto->getToken()); <br>`
