@@ -10,7 +10,7 @@ Create the php file example index.php and paste this code
 <?php <br>
 
 
-require __DIR__.'/../vendor/autoload.php'; <br>
+require __DIR__.'/vendor/autoload.php'; <br>
 
 $config = [ <br>
 	"uppercase" => true, <br>
